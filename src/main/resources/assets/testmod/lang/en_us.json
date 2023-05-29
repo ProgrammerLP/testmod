@@ -1,0 +1,16 @@
+{
+  "item.testmod.catenary_cable": "Catenary Cable",
+  "item.testmod.raw_indium": "Raw Indium",
+  "item.testmod.indium_ingot": "Indium Ingot",
+  "item.testmod.lithium_ingot": "Lithium Ingot",
+  "item.testmod.raw_lithium": "Raw Lithium",
+  "block.testmod.catenary": "Catenary",
+  "block.testmod.connected_catenary": "Connected Catenary",
+  "block.testmod.catenary_holder": "Catenary Holder",
+  "block.testmod.indium_block": "Block of Indium",
+  "block.testmod.indium_ore": "Indium Ore",
+  "block.testmod.lithium_block": "Block of Lithium",
+  "block.testmod.lithium_ore": "Lithium Ore",
+
+  "itemGroup.ProgrammerLP's Additions": "ProgrammerLP's Additions"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "Ti ",
+    "i  "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "testmod:catenary_cable"
+    }
+  },
+  "result": {
+    "item": "testmod:catenary_holder",
+    "count": 3
+  }
+}

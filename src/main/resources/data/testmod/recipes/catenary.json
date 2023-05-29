@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "   ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:catenary_cable"
+    }
+  },
+  "result": {
+    "item": "testmod:catenary",
+    "count": 1
+  }
+}

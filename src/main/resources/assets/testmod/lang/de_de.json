@@ -1,0 +1,16 @@
+{
+  "item.testmod.catenary_cable": "Oberleitungskabel",
+  "item.testmod.raw_indium": "Rohes Indium",
+  "item.testmod.indium_ingot": "Indiumbarren",
+  "item.testmod.lithium_ingot": "Lithiumbarren",
+  "item.testmod.raw_lithium": "Rohes Lithium",
+  "block.testmod.catenary": "Oberleitung",
+  "block.testmod.connected_catenary": "Verbundene Oberleitung",
+  "block.testmod.catenary_holder": "Oberleitungshalterung",
+  "block.testmod.indium_block": "Indium Block",
+  "block.testmod.indium_ore": "Indium Erz",
+  "block.testmod.lithium_block": "Lithium Block",
+  "block.testmod.lithium_ore": "Lithium Erz",
+
+  "itemGroup.ProgrammerLP's Additions": "ProgrammerLP's Ergänzungen"
+}

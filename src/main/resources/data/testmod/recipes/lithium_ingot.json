@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:raw_lithium"
+  },
+  "result": "testmod:lithium_ingot",
+  "experience": 2.1,
+  "cookingtime": 200
+}

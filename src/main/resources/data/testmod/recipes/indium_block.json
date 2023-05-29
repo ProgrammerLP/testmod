@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "testmod:indium_ingot"
+    }
+  },
+  "result": {
+    "item": "testmod:indium_block",
+    "count": 1
+  }
+}
