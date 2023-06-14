@@ -5,11 +5,13 @@ import de.adeptstack.testmod.world.item.ModCreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraftforge.common.ToolAction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,29 +24,29 @@ public class BlockInit {
 
     public static final RegistryObject<Block> catenary = registerBlock("catenary",
             () -> new Block(BlockBehaviour.Properties
-                    .copy(Blocks.OAK_FENCE)
-                    .strength(1.0f, 3.0f)
+                    .copy(Blocks.IRON_BARS)
+                    .strength(0.4f, 3.0f)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     public static  final RegistryObject<Block> connected_catenary = registerBlock("connected_catenary",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.IRON_BARS)
-                    .strength(1.0f, 3.0f)
+                    .strength(0.4f, 3.0f)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     public static final RegistryObject<Block> catenary_holder = registerBlock("catenary_holder",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.IRON_BARS)
-                    .strength(1.0f, 3.0f)
+                    .strength(0.4f, 3.0f)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     //Minerals
@@ -53,17 +55,17 @@ public class BlockInit {
                     .of(Material.METAL)
                     .strength(0.2f, 1.0f)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     public static final RegistryObject<Block> indium_ore = registerBlock("indium_ore",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.STONE)
-                    .strength(1.75f, 7.0f)
+                    .strength(0.3f, 7.0f)
                     .sound(SoundType.STONE)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     public static final RegistryObject<Block> lithium_block = registerBlock("lithium_block",
@@ -71,17 +73,17 @@ public class BlockInit {
                     .of(Material.METAL)
                     .strength(0.1f, 0.5f)
                     .sound(SoundType.METAL)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     public static final RegistryObject<Block> lithium_ore = registerBlock("lithium_ore",
             () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.STONE)
-                    .strength(1.5f, 6.5f)
+                    .strength(0.2f, 6.5f)
                     .sound(SoundType.STONE)
-                    .noOcclusion()
-                    .requiresCorrectToolForDrops())
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion())
             , ModCreativeModeTab.programmerlpsadditions);
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

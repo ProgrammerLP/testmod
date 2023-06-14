@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:catenary",
+    "testmod:connected_catenary",
+    "testmod:catenary_holder",
+    "testmod:indium_block",
+    "testmod:indium_ore",
+    "testmod:lithium_block",
+    "testmod:lithium_ore"
+  ]
+}
