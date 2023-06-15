@@ -1,6 +1,7 @@
 package de.adeptstack.testmod;
 
 import com.mojang.logging.LogUtils;
+import de.adeptstack.testmod.Core.Events.WorldEvents;
 import de.adeptstack.testmod.Core.Init.BlockInit;
 import de.adeptstack.testmod.Core.Init.ItemInit;
 import net.minecraft.world.level.block.Block;
@@ -26,7 +27,7 @@ public class Testmod {
 
     public static final String MODID = "testmod";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Testmod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

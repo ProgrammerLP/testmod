@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @OnlyIn(Dist.CLIENT)
 @Mod.EventBusSubscriber(modid = Testmod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+
 public class ModClientSetupEvents {
     @SubscribeEvent
     public static void modRenderTypes(final EntityRenderersEvent.RegisterRenderers event) {
